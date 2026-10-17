@@ -1,0 +1,18 @@
+{
+  "name": "сrud",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
+    "server": "json-server --watch ./data/db.json --port 3001"
+  },
+  "keywords": [],
+  "author": "Vladyslav Mahar <maharvladyslav@gmail.com>",
+  "license": "ISC",
+  "description": "СRUD",
+  "devDependencies": {
+    "json-server": "^1.0.0-beta.15",
+    "parcel": "^2.16.4"
+  }
+}

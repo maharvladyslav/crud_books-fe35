@@ -1,0 +1,41 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "year": 1997,
+      "likes": 1500
+    },
+    {
+      "id": "2",
+      "title": "Charlotte's Web",
+      "author": "E.B. White",
+      "year": 1952,
+      "likes": 1200
+    },
+    {
+      "id": "3",
+      "title": "Where the Wild Things Are",
+      "author": "Maurice Sendak",
+      "year": 1963,
+      "likes": 900
+    },
+    {
+      "id": "4",
+      "title": "The Cat in the Hat",
+      "author": "Dr. Seuss",
+      "year": 1957,
+      "likes": 1100
+    },
+    {
+      "id": "5",
+      "title": "Goodnight Moon",
+      "author": "Margaret Wise Brown",
+      "year": 1947,
+      "likes": 1221
+    }
+  ],
+  "authors": [],
+  "$schema": "./node_modules/json-server/schema.json"
+}
