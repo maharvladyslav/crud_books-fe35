@@ -18,11 +18,13 @@ const createMarkup = (books) => `<ul>${books
   .join("")}
 </ul>`;
 
-getAllBooks().then((data) => {
+const renderBooks = async () => {
+  const data = await getAllBooks();
+
   const markup = createMarkup(data);
   bookContainer.innerHTML = markup;
-});
-
+};
+renderBooks();
 const handleBookDelete = (event) => {
   const target = event.target;
   if (target.dataset.action !== "delete") return;
